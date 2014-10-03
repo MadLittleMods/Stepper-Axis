@@ -20,7 +20,7 @@ int stepPin = 0;
 int dirPin = 1;
  
 void setup()
-{
- StepperAxis xAxis(stepPin, dirPin);
+{	
+	StepperAxis xAxis(stepPin, dirPin);
 }
 ```
