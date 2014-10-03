@@ -8,3 +8,12 @@ This project is not recommended for public use.
  
 # Dependencies:
  - [ArduinoJSON](https://github.com/bblanchon/ArduinoJson): For debug information and target reach callbacks
+
+
+# Usage:
+
+```
+int stepPin = 0;
+int dirPin = 1;
+StepperAxis xAxis(stepPin, dirPin);
+```
