@@ -13,7 +13,14 @@ This project is not recommended for public use.
 # Usage:
 
 ```
+#include <StepperAxis.h>
+#include <JsonParser.h> // https://github.com/bblanchon/ArduinoJson
+
 int stepPin = 0;
 int dirPin = 1;
-StepperAxis xAxis(stepPin, dirPin);
+ 
+void setup()
+{
+ StepperAxis xAxis(stepPin, dirPin);
+}
 ```
